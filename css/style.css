@@ -46,11 +46,33 @@ color: white;
     width: 90%;
 }
 .scroll_down{
-    margin-left: 2em;
-    height: 23em;
-    width: 7em;
-    background-color: white;
+    height: 96vh;
+    width: 96vw;
+    background-color: #111113;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#nav_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav{
+    height: 7em;
+    width: 7em;
+    border-radius: 8em;
+    color: white;
+    background-color: #4242ab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -18px 20px 6px 6px #00000047;
+}
+
 .bolas{
     display: flex;
 }
@@ -77,6 +99,7 @@ color: white;
 a{
     color: #4242ab;
     text-decoration: none;
+    
 }
 a > div > h4 {  
     opacity: 0;
@@ -184,4 +207,17 @@ a > div > h4 {
     height: 100vh;
     width: auto;
     position: relative;
+}
+
+.content_dev{
+    width: 80%;
+    margin-left: 3em;
+    height: 80%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+#frame{
+    height: 99%;
+    width: 80%;
 }
