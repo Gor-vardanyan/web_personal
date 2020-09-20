@@ -79,9 +79,7 @@ a{
     text-decoration: none;
 }
 a > div > h4 {  
-    opacity: 0.2;
-    scale: 0;
-    color: #4242ab;
+    opacity: 0;
 }
 
 .bolas_contenido:hover {
