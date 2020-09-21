@@ -50,6 +50,7 @@ color: white;
     background-color: #111113;
     padding: 1em;
     padding-left: 10em;
+    scroll-behavior: smooth;
 }
 
 #nav_bar{
@@ -210,12 +211,19 @@ a > div > h4 {
     width: auto;
     position: relative;
 }
-
+h1{
+    font-size: 5em;
+    margin-bottom: 0.3em;
+}
+#posicion{
+    display: flex;
+    justify-content: flex-end;
+}
 .content_dev{
     width: 80%;
     position: relative;
     margin-left: 3em;
-    background-color: #4242ab;
+    border-bottom: solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,8 +234,8 @@ a > div > h4 {
 }
 
 #frame{
-    height: 95%;
-    width: 80%;
+    height: 75%;
+    width: 100%;
     border-radius: 1em;
     border: none;
     box-shadow: 0px 13px 11px -8px black;
@@ -241,14 +249,13 @@ a > div > h4 {
 }
 
 .explanation{
-    width: 15%;
+    width: 44%;
     padding: 1.2em;
     color: white;
-    height: 100%;
     font-size: 0.9em;
 }
 .explanation_design{
-    width: 100%;
+    width: 70%;
     padding: 1.2em;
     color: white;
     height: 100%;
@@ -257,7 +264,7 @@ a > div > h4 {
 
 .content_project{
     display: flex;
-    height: 92vh;
+    height: 80vh;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -298,7 +305,8 @@ a > div > h4 {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     overflow-y: hidden;
 }
 .segundo{
@@ -320,4 +328,9 @@ a:active > button{
     justify-content: center;
     color: white;
     margin-right: 10%;
+}
+@media (max-width: 600px){
+ #nav_bar{
+     display: none;
+ }
 }
