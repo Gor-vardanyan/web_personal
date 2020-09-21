@@ -232,8 +232,23 @@ a > div > h4 {
     border: none;
     box-shadow: 0px 13px 11px -8px black;
 }
+.logos{
+    height: auto;
+    width: 70%;
+    border-radius: 1em;
+    border: none;
+    box-shadow: 0px 13px 11px -8px black;
+}
+
 .explanation{
     width: 15%;
+    padding: 1.2em;
+    color: white;
+    height: 100%;
+    font-size: 0.9em;
+}
+.explanation_design{
+    width: 100%;
     padding: 1.2em;
     color: white;
     height: 100%;
@@ -291,8 +306,11 @@ a > div > h4 {
     width: 100%;
     display: flex;
     align-items: center;
+    flex-direction: column;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
+
 a:active > button{
     background-color: #111113;
 }
@@ -301,4 +319,5 @@ a:active > button{
     display: flex;
     justify-content: center;
     color: white;
+    margin-right: 10%;
 }
